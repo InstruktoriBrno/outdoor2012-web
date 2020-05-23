@@ -1,0 +1,6 @@
+@import "basic.css";
+
+html, body { background:none; text-align:left; margin:0em; padding:0em; }
+
+#logo
+ { display:none; }

@@ -1,0 +1,48 @@
+@import "basic.css";
+
+html { background-color:#C8C2A8; text-align:center; margin:0em; padding:0em; }
+body { margin:0em 0em; padding:0em; text-align:center; }
+/* cely blok stranky */
+
+body { font:normal 0.8em/1.35em sans-serif, georgia; }
+#hp { width:916px; margin:0em auto; overflow:hidden; background:url('../img/wrapbg.jpg') top center repeat-y; }
+#page { width:900px; margin:0em auto; }
+#logo { margin:0em auto; }
+
+  #menu h1 { display:none; }
+  #menu ul { margin:0em; padding:0em; list-style-type:none; clear:both; width:900px; height:36px; background:url('../img/bg.png') 0px -100px repeat-x;  }
+  #menu ul li { margin:0em; padding:0em 1em; display:block; float:left; line-height:36px; }
+  #menu ul li.act a { color:yellow; }
+  #menu ul li a { color:white; text-decoration:none; font-weight:bold; }
+  #menu ul li a:hover { text-decoration:underline; }
+
+  #conpage { text-align:left; overflow:hidden; padding:24px 24px 0px 24px; background-color:white; }
+    #conpage a img { padding:6px; background-color:#EFEFEF; border:1px solid #999999; }
+
+  #paticka { display:none; clear:both; background:url('../img/footer.html') top left repeat-x; padding:0px 20px 0px 20px; margin:0em; }
+  #paticka a { text-decoration:none; }
+  #paticka a:hover { text-decoration:underline; }
+  #paticka a#caribou { float:right; }
+
+hr { clear:both; }
+  
+/* pomocne formatovaci tagy */
+.hidden { display:none; }
+.cleaner { display:block; width:100%; clear:both; height:1px; margin:-1px 0 0 0; padding:0; border:none; visibility:hidden; font-size:1px; }
+
+div#footer { background:url('../img/downbg.jpg') top center no-repeat white; margin:0; height:12px; }
+
+/* zarovnavaci znacky */
+.r { text-align:right; }
+.l { text-align:left; }
+.c { text-align:center; }
+.j { text-align:justify; }
+.fr { float:right; }
+.fl { float:left; }
+
+/* znacky pro plovouci bloky */
+.box50L { display:block; width:49%; float:left; }
+.box50R { display:block; width:49%; float:right; }
+
+/* styl obrazku na page 404 */
+img.gloom { margin:10px; float:left; border-width:0px; }
